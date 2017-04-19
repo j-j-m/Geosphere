@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A029C6B61EA6D8B900A9FBBE /* Voxelizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029C6B51EA6D8B900A9FBBE /* Voxelizer.swift */; };
+		A029C6B91EA6DCB700A9FBBE /* MeshNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029C6B81EA6DCB700A9FBBE /* MeshNode.swift */; };
+		A029C6BA1EA6DCB700A9FBBE /* MeshNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029C6B81EA6DCB700A9FBBE /* MeshNode.swift */; };
+		A029C6BB1EA6DD6600A9FBBE /* Voxelizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029C6B51EA6D8B900A9FBBE /* Voxelizer.swift */; };
 		A0E5E8F31EA49486008608E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E8F21EA49486008608E6 /* AppDelegate.swift */; };
 		A0E5E8F51EA49486008608E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E8F41EA49486008608E6 /* ViewController.swift */; };
 		A0E5E8F81EA49486008608E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E5E8F61EA49486008608E6 /* Main.storyboard */; };
 		A0E5E8FA1EA49486008608E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E5E8F91EA49486008608E6 /* Assets.xcassets */; };
 		A0E5E8FD1EA49486008608E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E5E8FB1EA49486008608E6 /* LaunchScreen.storyboard */; };
+		A0E5E90B1EA4956E008608E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E90A1EA4956E008608E6 /* AppDelegate.swift */; };
+		A0E5E90D1EA4956E008608E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E90C1EA4956E008608E6 /* ViewController.swift */; };
+		A0E5E90F1EA4956E008608E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E5E90E1EA4956E008608E6 /* Assets.xcassets */; };
+		A0E5E9121EA4956E008608E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E5E9101EA4956E008608E6 /* Main.storyboard */; };
+		A0E5E9181EA495D4008608E6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E9171EA495D4008608E6 /* Extensions.swift */; };
+		A0E5E91B1EA49738008608E6 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E91A1EA49738008608E6 /* Mesh.swift */; };
+		A0E5E91C1EA49738008608E6 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E91A1EA49738008608E6 /* Mesh.swift */; };
+		A0E5E91F1EA49993008608E6 /* Icosahedral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E91E1EA49993008608E6 /* Icosahedral.swift */; };
+		A0E5E9201EA49993008608E6 /* Icosahedral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E91E1EA49993008608E6 /* Icosahedral.swift */; };
+		A0E5E9231EA49A29008608E6 /* PrimitiveBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E9221EA49A29008608E6 /* PrimitiveBlueprint.swift */; };
+		A0E5E9241EA49A29008608E6 /* PrimitiveBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E9221EA49A29008608E6 /* PrimitiveBlueprint.swift */; };
+		A0E5E9251EA49A62008608E6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E9171EA495D4008608E6 /* Extensions.swift */; };
+		A0E5E9281EA49B38008608E6 /* Compute.metal in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E9271EA49B38008608E6 /* Compute.metal */; };
+		A0E5E9291EA49B38008608E6 /* Compute.metal in Sources */ = {isa = PBXBuildFile; fileRef = A0E5E9271EA49B38008608E6 /* Compute.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A029C6B51EA6D8B900A9FBBE /* Voxelizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voxelizer.swift; sourceTree = "<group>"; };
+		A029C6B81EA6DCB700A9FBBE /* MeshNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeshNode.swift; sourceTree = "<group>"; };
 		A0E5E8EF1EA49486008608E6 /* Geosphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geosphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E5E8F21EA49486008608E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0E5E8F41EA49486008608E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,17 @@
 		A0E5E8F91EA49486008608E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0E5E8FC1EA49486008608E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0E5E8FE1EA49486008608E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E5E9081EA4956E008608E6 /* MacExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E5E90A1EA4956E008608E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0E5E90C1EA4956E008608E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0E5E90E1EA4956E008608E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0E5E9111EA4956E008608E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0E5E9131EA4956E008608E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E5E9171EA495D4008608E6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A0E5E91A1EA49738008608E6 /* Mesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
+		A0E5E91E1EA49993008608E6 /* Icosahedral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icosahedral.swift; sourceTree = "<group>"; };
+		A0E5E9221EA49A29008608E6 /* PrimitiveBlueprint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitiveBlueprint.swift; sourceTree = "<group>"; };
+		A0E5E9271EA49B38008608E6 /* Compute.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Compute.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,13 +63,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0E5E9051EA4956E008608E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A029C6B71EA6DC6A00A9FBBE /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				A0E5E91D1EA4997B008608E6 /* Primitives */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
 		A0E5E8E61EA49486008608E6 = {
 			isa = PBXGroup;
 			children = (
+				A0E5E9171EA495D4008608E6 /* Extensions.swift */,
+				A0E5E9191EA49710008608E6 /* Shared */,
 				A0E5E8F11EA49486008608E6 /* Geosphere */,
+				A0E5E9091EA4956E008608E6 /* MacExample */,
 				A0E5E8F01EA49486008608E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				A0E5E8EF1EA49486008608E6 /* Geosphere.app */,
+				A0E5E9081EA4956E008608E6 /* MacExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +112,55 @@
 				A0E5E8FE1EA49486008608E6 /* Info.plist */,
 			);
 			path = Geosphere;
+			sourceTree = "<group>";
+		};
+		A0E5E9091EA4956E008608E6 /* MacExample */ = {
+			isa = PBXGroup;
+			children = (
+				A0E5E90A1EA4956E008608E6 /* AppDelegate.swift */,
+				A0E5E90C1EA4956E008608E6 /* ViewController.swift */,
+				A0E5E90E1EA4956E008608E6 /* Assets.xcassets */,
+				A0E5E9101EA4956E008608E6 /* Main.storyboard */,
+				A0E5E9131EA4956E008608E6 /* Info.plist */,
+			);
+			path = MacExample;
+			sourceTree = "<group>";
+		};
+		A0E5E9191EA49710008608E6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A029C6B71EA6DC6A00A9FBBE /* Nodes */,
+				A0E5E9261EA49B21008608E6 /* Shader */,
+				A029C6B51EA6D8B900A9FBBE /* Voxelizer.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		A0E5E91D1EA4997B008608E6 /* Primitives */ = {
+			isa = PBXGroup;
+			children = (
+				A029C6B81EA6DCB700A9FBBE /* MeshNode.swift */,
+				A0E5E91A1EA49738008608E6 /* Mesh.swift */,
+				A0E5E9211EA499C0008608E6 /* Blueprint */,
+				A0E5E91E1EA49993008608E6 /* Icosahedral.swift */,
+			);
+			name = Primitives;
+			sourceTree = "<group>";
+		};
+		A0E5E9211EA499C0008608E6 /* Blueprint */ = {
+			isa = PBXGroup;
+			children = (
+				A0E5E9221EA49A29008608E6 /* PrimitiveBlueprint.swift */,
+			);
+			name = Blueprint;
+			sourceTree = "<group>";
+		};
+		A0E5E9261EA49B21008608E6 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				A0E5E9271EA49B38008608E6 /* Compute.metal */,
+			);
+			name = Shader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +183,23 @@
 			productReference = A0E5E8EF1EA49486008608E6 /* Geosphere.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A0E5E9071EA4956E008608E6 /* MacExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E5E9141EA4956E008608E6 /* Build configuration list for PBXNativeTarget "MacExample" */;
+			buildPhases = (
+				A0E5E9041EA4956E008608E6 /* Sources */,
+				A0E5E9051EA4956E008608E6 /* Frameworks */,
+				A0E5E9061EA4956E008608E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacExample;
+			productName = MacExample;
+			productReference = A0E5E9081EA4956E008608E6 /* MacExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +211,11 @@
 				ORGANIZATIONNAME = "Jacob Martin";
 				TargetAttributes = {
 					A0E5E8EE1EA49486008608E6 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = BCYSH9FU9P;
+						ProvisioningStyle = Automatic;
+					};
+					A0E5E9071EA4956E008608E6 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = BCYSH9FU9P;
 						ProvisioningStyle = Automatic;
@@ -115,6 +236,7 @@
 			projectRoot = "";
 			targets = (
 				A0E5E8EE1EA49486008608E6 /* Geosphere */,
+				A0E5E9071EA4956E008608E6 /* MacExample */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +252,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0E5E9061EA4956E008608E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E5E90F1EA4956E008608E6 /* Assets.xcassets in Resources */,
+				A0E5E9121EA4956E008608E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,8 +268,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A029C6B91EA6DCB700A9FBBE /* MeshNode.swift in Sources */,
 				A0E5E8F51EA49486008608E6 /* ViewController.swift in Sources */,
+				A0E5E9181EA495D4008608E6 /* Extensions.swift in Sources */,
+				A029C6B61EA6D8B900A9FBBE /* Voxelizer.swift in Sources */,
+				A0E5E91B1EA49738008608E6 /* Mesh.swift in Sources */,
 				A0E5E8F31EA49486008608E6 /* AppDelegate.swift in Sources */,
+				A0E5E9281EA49B38008608E6 /* Compute.metal in Sources */,
+				A0E5E91F1EA49993008608E6 /* Icosahedral.swift in Sources */,
+				A0E5E9231EA49A29008608E6 /* PrimitiveBlueprint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E5E9041EA4956E008608E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E5E91C1EA49738008608E6 /* Mesh.swift in Sources */,
+				A0E5E9251EA49A62008608E6 /* Extensions.swift in Sources */,
+				A0E5E90D1EA4956E008608E6 /* ViewController.swift in Sources */,
+				A0E5E90B1EA4956E008608E6 /* AppDelegate.swift in Sources */,
+				A029C6BA1EA6DCB700A9FBBE /* MeshNode.swift in Sources */,
+				A0E5E9291EA49B38008608E6 /* Compute.metal in Sources */,
+				A0E5E9241EA49A29008608E6 /* PrimitiveBlueprint.swift in Sources */,
+				A029C6BB1EA6DD6600A9FBBE /* Voxelizer.swift in Sources */,
+				A0E5E9201EA49993008608E6 /* Icosahedral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +313,14 @@
 				A0E5E8FC1EA49486008608E6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A0E5E9101EA4956E008608E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E5E9111EA4956E008608E6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +447,40 @@
 			};
 			name = Release;
 		};
+		A0E5E9151EA4956E008608E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BCYSH9FU9P;
+				INFOPLIST_FILE = MacExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = JJM.MacExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A0E5E9161EA4956E008608E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BCYSH9FU9P;
+				INFOPLIST_FILE = MacExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = JJM.MacExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -304,6 +500,16 @@
 				A0E5E9031EA49486008608E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E5E9141EA4956E008608E6 /* Build configuration list for PBXNativeTarget "MacExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E5E9151EA4956E008608E6 /* Debug */,
+				A0E5E9161EA4956E008608E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

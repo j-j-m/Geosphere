@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MacExample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>A0E5E8EE1EA49486008608E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0E5E9071EA4956E008608E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0E5E8EE1EA49486008608E6"
-               BuildableName = "Geosphere.app"
-               BlueprintName = "Geosphere"
+               BlueprintIdentifier = "A0E5E9071EA4956E008608E6"
+               BuildableName = "MacExample.app"
+               BlueprintName = "MacExample"
                ReferencedContainer = "container:Geosphere.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0E5E8EE1EA49486008608E6"
-            BuildableName = "Geosphere.app"
-            BlueprintName = "Geosphere"
+            BlueprintIdentifier = "A0E5E9071EA4956E008608E6"
+            BuildableName = "MacExample.app"
+            BlueprintName = "MacExample"
             ReferencedContainer = "container:Geosphere.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0E5E8EE1EA49486008608E6"
-            BuildableName = "Geosphere.app"
-            BlueprintName = "Geosphere"
+            BlueprintIdentifier = "A0E5E9071EA4956E008608E6"
+            BuildableName = "MacExample.app"
+            BlueprintName = "MacExample"
             ReferencedContainer = "container:Geosphere.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0E5E8EE1EA49486008608E6"
-            BuildableName = "Geosphere.app"
-            BlueprintName = "Geosphere"
+            BlueprintIdentifier = "A0E5E9071EA4956E008608E6"
+            BuildableName = "MacExample.app"
+            BlueprintName = "MacExample"
             ReferencedContainer = "container:Geosphere.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
